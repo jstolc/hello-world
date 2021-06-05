@@ -1,15 +1,15 @@
 hello-world
 ===========
 
-hello-world is an example of a simple "Hello World" web app and its deployment into Docker container. Af
+hello-world is an example of a simple "Hello World" web app and its deployment into Docker container. 
 
 ## Prerequisites 
 
-hello-world requires Linux OS that uses yum as package manager. Functionality was tested on a freshly installed CentOS 7 and this is also recommended. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
+hello-world requires an instance of Linux OS that uses `yum` as package manager. Functionality was tested on a freshly installed CentOS 7 and this is also recommended. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
 
 ## Installation  
     
-1. Make sure the system is connected to the internet
+1. Make sure your system is connected to the internet
 2. Login as "root" 
 3. Install git
 ```
@@ -24,4 +24,4 @@ hello-world requires Linux OS that uses yum as package manager. Functionality wa
     $ cd hello-world
     $ sh hello-world-deploy.sh
 ```    
-After this step there is no interaction required. It will take few moments for the web app to be accessible at http://localhost/hello.
+After this step there is no interaction required. Depending on the performance of your system and your internet connection, it should take just a moment for the web app to become accessible at http://localhost/hello.
