@@ -21,4 +21,6 @@ $ git clone https://github.com/jstolc/hello-world.git
 6. run "hello-world-deploy.sh"
 
 $ cd hello-world
+
+
 $ sh hello-world-deploy.sh
