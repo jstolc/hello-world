@@ -11,11 +11,14 @@ installation media used: http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/Ce
 3. login as "root" 
 
 4. install git
+
 $ yum install -y git
 
 5. clone hello-world repository
+
 $ git clone https://github.com/jstolc/hello-world.git
 
 6. run "hello-world-deploy.sh"
+
 $ cd hello-world
 $ sh hello-world-deploy.sh
