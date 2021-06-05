@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-hello-world is an example of a simple "Hello World" web app and its deployment into Docker container. 
+hello-world is an example of simple "Hello World" web app and its deployment into Docker container. 
 
 ## Prerequisites 
 
