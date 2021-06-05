@@ -24,4 +24,4 @@ hello-world requires Linux OS that uses yum as package manager. Functionality wa
     $ cd hello-world
     $ sh hello-world-deploy.sh
 ```    
-After this step there is no interaction needed and after few moments the web app will be accessible at http://localhost/hello 
+After this step there is no interaction required. It will take few moments for the web app to be accessible at http://localhost/hello.
