@@ -1,2 +1,2 @@
-# hello-world-servlet
+# hello-world
 HelloWorld Servlet example
