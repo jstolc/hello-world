@@ -5,7 +5,7 @@ hello-world is an example of a simple "Hello World" web app and its deployment i
 
 ## Prerequisites 
 
-hello-world requires an instance of Linux OS that uses `yum` as package manager. Functionality was tested on a freshly installed CentOS 7 and this is also recommended. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
+hello-world requires an instance of Linux OS that uses `yum` as package manager. Functionality was tested on a freshly installed CentOS 7 and this is also recommended platform to run this repository on. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
 
 ## Installation  
     
