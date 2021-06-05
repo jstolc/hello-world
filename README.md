@@ -2,8 +2,8 @@
 HelloWorld Servlet example
 
 Steps:
-1. Install CentOS 7 using default options 
-   (installation media used: http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso)
+1. Install CentOS 7 using default options
+   installation media used: http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
 
 2. make sure the system is connected to the internet
 
