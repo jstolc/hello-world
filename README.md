@@ -22,26 +22,6 @@ hello-world requires an instance of Linux OS that uses `yum` as package manager.
     $ git clone https://github.com/jstolc/hello-world.git
 ```    
 
-
-### Components  
-
-  * Servlet `target/hello.war`
-  * `Dockerfile`
-  * Installation script `hello-world-deploy.sh`
-
-
-### Development
-
-For the purpose of development environment, simply the same instance of CentOS was utilized.
-
-Source files described:
-
-  * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for responding with "hello world!" string
-  * `src/main/webapp/WEB-INF/web.xml` - webapp configuration for Tomcat
-  * `Dockerfile` - container build template
-  * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container
-
-
 ### Build  
 
 Maven was used to build the servlet. The steps are described bellow: 
@@ -68,6 +48,24 @@ Maven was used to build the servlet. The steps are described bellow:
     $ sh hello-world-deploy.sh
 ```    
 After this step, there is no further interaction required. Your app is being deployed and will start automatically. Depending on your system's performance and the speed of your internet connection, it should take just a moment for the web app to become accessible via http://localhost/hello.
+
+
+### Development
+
+For the purpose of development environment, simply the same instance of CentOS was utilized.
+
+Source files described:
+
+  * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for responding with "hello world!" string
+  * `src/main/webapp/WEB-INF/web.xml` - webapp configuration for Tomcat
+  * `Dockerfile` - container build template
+  * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container
+
+Components  
+
+  * Servlet `target/hello.war`
+  * `Dockerfile`
+  * Installation script `hello-world-deploy.sh`
 
 
 ### References  
