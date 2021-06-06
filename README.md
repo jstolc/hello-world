@@ -28,8 +28,8 @@ Maven was used to build the servlet. The steps are described bellow:
 
   * Obtain software required for the build
 ```
-    $ install java-latest-openjdk
-    $ install maven
+    $ yum install -y java-latest-openjdk.x86_64
+    $ yum install -y maven
 ```
   * Compile the code and assemlbe the servlet package
 ``` 
