@@ -24,6 +24,8 @@ hello-world
 
 ### Build  
 
+Please note that this task is optional. The repository contains `hello.war` servlet already.
+
 Maven was used to build the servlet. The steps are described bellow: 
 
   * Obtain software required 
