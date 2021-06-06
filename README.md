@@ -40,9 +40,7 @@ Maven was used to build the servlet. The steps are described bellow:
 
 ### Deploy and run 
     
-1. Make sure your system is connected to the internet
-2. Log in as "root" 
-3. Run "hello-world-deploy.sh"
+1. Run "hello-world-deploy.sh"
 ```
     $ cd hello-world
     $ sh hello-world-deploy.sh
