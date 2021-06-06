@@ -11,11 +11,13 @@ hello-world requires an instance of Linux OS that uses `yum` as package manager.
 
 ### Perparation
 
-1. Install `git`
+1. Make sure your system is connected to the internet
+2. Log in as "root" 
+3. Install `git`
 ```
     $ yum install -y git
 ```
-2. Download `hello-world` repository
+4. Download `hello-world` repository
 ```
     $ git clone https://github.com/jstolc/hello-world.git
 ```    
