@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-`hello-world` is an example of "Hello World" web application and its automated deployment using Docker. The web app is a Servlet written in Java, which is plugged-in into Tomcat's webapps directory inside the Docker container. For convenient deployment, all commands are executed by a single script. 
+`hello-world` is an example of "Hello World" web application and its automated deployment using Docker. The web app is a Servlet written in Java, which is plugged-in into Tomcat's webapps directory inside the Docker container. For a convenient deployment, all tasks are bundled into a single script. 
 
 ### Prerequisites 
 
