@@ -22,11 +22,10 @@ hello-world
     $ git clone https://github.com/jstolc/hello-world.git
 ```    
 
+
 ### Build  
 
-Please note that this task is optional. The repository contains `hello.war` servlet already.
-
-Maven was used to build the servlet. The steps are described bellow: 
+Maven was used to build the servlet. Please note that the task is optional as the repository contains `hello.war` servlet already. If you wish to proceed with build anyway, you can find the steps described bellow: 
 
   * Obtain software required 
 ```
