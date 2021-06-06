@@ -22,10 +22,10 @@ if [ "$S1" == "$S2" ]
 then
   # display success message
   IP=$(ping -c 1 `hostname` | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p')
-  printf "To access hello-world web app, navigate to http://${IP}/hello\n"   
+  printf "To access hello-world web app, navigate to http://${IP}/hello\n\n"   
 else 
   # bad luck
-  printf "Something went wrong. Please see log output above for more details. \n"
+  printf "Something went wrong. Please see log output above for more details. \n\n"
 fi
 
 
