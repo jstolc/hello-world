@@ -62,12 +62,6 @@ Source files described:
   * `Dockerfile` - container build template
   * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container
 
-Components:  
-
-  * Servlet `target/hello.war`
-  * `Dockerfile`
-  * Installation script `hello-world-deploy.sh`
-
 
 ### References  
 
