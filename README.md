@@ -23,7 +23,7 @@ hello-world requires an instance of Linux OS that uses `yum` as package manager.
 
 ### Components  
 
-  * Servlet `hello.war`
+  * Servlet `target/hello.war`
   * `Dockerfile`
   * Installation script `hello-world-deploy.sh`
 
@@ -37,7 +37,7 @@ Source files described:
   * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for responding with "hello world!" string
   * `src/main/webapp/WEB-INF/web.xml` - webapp configuration for Tomcat
   * `Dockerfile` - container build template
-  * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container. 
+  * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container
 
 
 ### Build  
