@@ -48,7 +48,7 @@ Maven was used to build the servlet. Please note that the task is optional as th
     $ cd hello-world
     $ sh hello-world-deploy.sh
 ```    
-After this step, there is no further interaction required. Your app is being deployed and will start automatically. Depending on your system's performance and the speed of your internet connection, it should take around one minute for the web app to become accessible via http://localhost/hello.
+After this step, there is no further interaction required. Your app is being deployed and will start automatically. Depending on your system's performance and the speed of your internet connection, it should take approximately one minute for the web app to become accessible via http://localhost/hello.
 
 
 ### Development
