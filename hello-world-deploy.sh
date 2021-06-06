@@ -14,7 +14,7 @@ sleep 20  # this cannot hurt that much :)
 
 # test the result
 S1=$(curl -fsSL http://localhost/hello)
-S2='Hello, World!'
+S2='hello world!'
 if [ "$S1" == "$S2" ]
 then
   # display success message
