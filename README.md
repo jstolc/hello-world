@@ -26,8 +26,9 @@ hello-world
 
 Maven was used to build the servlet. The steps are described bellow: 
 
-  * Obtain software required for the build
+  * Obtain software required 
 ```
+    $ yum install -y epel-release
     $ yum install -y java-latest-openjdk.x86_64
     $ yum install -y maven
 ```
