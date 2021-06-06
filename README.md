@@ -15,7 +15,7 @@ hello-world requires an instance of Linux OS that uses `yum` as package manager.
 ```
     $ yum install -y git
 ```
-2. download `hello-world` repository
+2. Download `hello-world` repository
 ```
     $ git clone https://github.com/jstolc/hello-world.git
 ```    
@@ -60,7 +60,7 @@ Maven was used to build the servlet. The steps are described bellow:
     
 1. Make sure your system is connected to the internet
 2. Log in as "root" 
-3. run "hello-world-deploy.sh"
+3. Run "hello-world-deploy.sh"
 ```
     $ cd hello-world
     $ sh hello-world-deploy.sh
@@ -70,7 +70,7 @@ After this step, there is no further interaction required. Your app is being dep
 
 ### References  
 
-This project was heavily inspired by the following tutorial: https://www.cprime.com/resources/blog/deploying-your-first-web-app-to-tomcat-on-docker/. 
+This project was inspired by the following tutorial: https://www.cprime.com/resources/blog/deploying-your-first-web-app-to-tomcat-on-docker/. 
 
 Other useful documentation sources used during making of hello-world:
   * https://tomcat.apache.org/tomcat-9.0-doc/appdev/deployment.html
