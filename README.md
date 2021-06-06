@@ -24,4 +24,9 @@ hello-world requires an instance of Linux OS that uses `yum` as package manager.
     $ cd hello-world
     $ sh hello-world-deploy.sh
 ```    
-After this step there is no interaction required. Depending on the performance of your system and your internet connection, it should take just a moment for the web app to become accessible via http://localhost/hello.
+After this step there is no further interaction required. Your app is being deployed and will start automatically. Depending your system's performance and the speed of your internet connection, it should take just a moment for the web app to become accessible via http://localhost/hello.
+
+## Description 
+
+The web app is written in Java. It's done in a form of Servlet, which is later plugged-in into Tomcat web server. 
+
