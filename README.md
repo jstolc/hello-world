@@ -56,7 +56,7 @@ Maven was used to build the servlet. The steps are described bellow:
 ``` 
     $ mvn install
 ```
-  * If successful, `.war` servlet package can be found in `./target/` directory 
+  * If successful, `.war` servlet package can be found under `./target/` directory 
 
 ### References  
 
