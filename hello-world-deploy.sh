@@ -10,6 +10,7 @@ systemctl start docker
 docker build -t helloworld .
 # run the web server along with the servlet 
 docker run -d -p 80:8080 helloworld 
+# wait until 
 sleep 20  # this cannot hurt that much :)
 
 # test the result
@@ -22,7 +23,7 @@ then
   printf "\nTo access hello-world web app, navigate to http://${IP}/hello\n"   
 else 
   # bad luck
-  echo Something went wrong.
+  printf "\nSomething went wrong. \n"
 fi
 
 
