@@ -10,7 +10,8 @@ systemctl start docker
 docker build -t helloworld .
 # run the web server along with the servlet 
 docker run -d -p 80:8080 helloworld 
-# wait until 
+# wait for container to start completely 
+printf "\nhello-world is starting, please wait a moment...\n"
 sleep 20  # this cannot hurt that much :)
 
 # test the result
@@ -21,10 +22,10 @@ if [ "$S1" == "$S2" ]
 then
   # display success message
   IP=$(ping -c 1 `hostname` | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p')
-  printf "\nTo access hello-world web app, navigate to http://${IP}/hello\n"   
+  printf "To access hello-world web app, navigate to http://${IP}/hello\n"   
 else 
   # bad luck
-  printf "\nSomething went wrong. Please see log output above for more details. \n"
+  printf "Something went wrong. Please see log output above for more details. \n"
 fi
 
 
