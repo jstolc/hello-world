@@ -6,7 +6,7 @@ hello-world
 
 ### Prerequisites 
 
-hello-world requires an instance of Linux OS that uses `yum` as package manager. Functionality was tested on a freshly installed CentOS 7 and the same is also a recommended platform to run this project on. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
+`hello-world` requires an instance of Linux OS that uses `yum` as package manager. Functionality was tested on a freshly installed CentOS 7 and the same is also a recommended platform to run this project on. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
 
 
 ### Perparation
@@ -71,7 +71,7 @@ Components
 
 This project was inspired by the following tutorial: https://www.cprime.com/resources/blog/deploying-your-first-web-app-to-tomcat-on-docker/. 
 
-Other useful documentation sources used during making of hello-world:
+Other useful documentation sources used during making of `hello-world`:
   * https://tomcat.apache.org/tomcat-9.0-doc/appdev/deployment.html
   * https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
   * https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
