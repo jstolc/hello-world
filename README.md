@@ -33,6 +33,7 @@ Maven was used to build the servlet. The steps are described bellow:
 ```
   * Compile the code and assemlbe the servlet package
 ``` 
+    $ cd hello-world
     $ mvn install
 ```
   * If successful, `hello.war` servlet package can be found under `target/` directory 
