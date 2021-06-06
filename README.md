@@ -57,7 +57,7 @@ For the purpose of development environment, simply the same instance of CentOS w
 
 Source files described:
 
-  * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for responding with "hello world!" string
+  * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for providing a "hello world!" response
   * `src/main/webapp/WEB-INF/web.xml` - webapp configuration for Tomcat
   * `Dockerfile` - container build template
   * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container
