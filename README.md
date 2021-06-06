@@ -53,7 +53,7 @@ Maven was used to build the servlet. The steps are described bellow:
 ``` 
     $ mvn install
 ```
-  * If successful, `.war` servlet package can be found under `./target/` directory 
+  * If successful, `hello.war` servlet package can be found under `target/` directory 
 
 
 ### Deploy and run 
