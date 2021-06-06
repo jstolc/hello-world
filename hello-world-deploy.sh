@@ -14,6 +14,7 @@ docker run -d -p 80:8080 helloworld
 sleep 20  # this cannot hurt that much :)
 
 # test the result
+printf "\nRESULT:\n"
 S1=$(curl -fsSL http://localhost/hello)
 S2='hello world!'
 if [ "$S1" == "$S2" ]
@@ -23,7 +24,7 @@ then
   printf "\nTo access hello-world web app, navigate to http://${IP}/hello\n"   
 else 
   # bad luck
-  printf "\nSomething went wrong. \n"
+  printf "\nSomething went wrong. Please see log output above for more details. \n"
 fi
 
 
