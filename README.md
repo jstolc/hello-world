@@ -9,7 +9,7 @@ hello-world
 `hello-world` requires an instance of Linux OS that uses `yum` as package manager. Functionality was tested on a freshly installed CentOS 7 and the same is a recommended platform to run this project on. Installation media used: [link](http://ftp.heanet.ie/pub/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso). 
 
 
-### Perparation
+### Preparation
 
 1. Make sure your system is connected to the internet
 2. Log in as "root" 
@@ -25,7 +25,7 @@ hello-world
 
 ### Build  
 
-Maven was used to build the servlet. Please note that the task is optional as the repository contains `hello.war` servlet already. If you wish to proceed with build anyway, you can find the steps described bellow: 
+Maven was used to build the servlet. Please note that the task is optional as the repository contains `hello.war` servlet already. If you wish to proceed with build anyway, you can find the steps described below: 
 
   * Obtain software required 
 ```
@@ -33,7 +33,7 @@ Maven was used to build the servlet. Please note that the task is optional as th
     $ yum install -y java-latest-openjdk.x86_64
     $ yum install -y maven
 ```
-  * Compile the code and assemlbe the servlet package
+  * Compile the code and assemble the servlet package
 ``` 
     $ cd hello-world
     $ mvn install
