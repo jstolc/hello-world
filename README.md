@@ -25,7 +25,7 @@ hello-world
 
 ### Build  
 
-Maven was used to build the servlet. Please note that the task is optional as the repository contains `hello.war` servlet already. If you wish to proceed with build anyway, you can find the steps described below: 
+Maven was used to build the servlet. Please note that the task is optional as the repository contains `hello.war` servlet already. If you wish to proceed with build anyway, you can follow the steps below: 
 
   * Obtain software required 
 ```
