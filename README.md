@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-`hello-world` is an example of "Hello World" web application and its automated deployment using Docker. The web app is a Servlet written in Java, which is plugged-in into Tomcat's `webapps` directory inside the Docker container. For a convenient deployment, all tasks are bundled into a single script. 
+`hello-world` is an example of a "Hello World" web application and its automated deployment using Docker. The web app is a Servlet written in Java, which is plugged-in into Tomcat's `webapps` directory inside the Docker container. For a convenient deployment, all tasks are bundled into a single script. 
 
 
 ### Prerequisites 
@@ -11,11 +11,11 @@ hello-world
 
 ### Preparation
 
-1. Make sure your system is connected to the internet
-2. Log in as "root" 
-3. Install `git`
+1. Make sure your system is connected to the internet.
+2. Log in as a privileged user.
+3. Install `git`.
 ```
-    $ yum install -y git
+    $ sudo yum install -y git
 ```
 4. Download `hello-world` repository
 ```
@@ -29,14 +29,14 @@ Maven was used to build the servlet. Please note that the task is optional as th
 
   * Obtain software required 
 ```
-    $ yum install -y epel-release
-    $ yum install -y java-latest-openjdk.x86_64
-    $ yum install -y maven
+    $ sudo yum install -y epel-release
+    $ sudo yum install -y java-latest-openjdk.x86_64
+    $ sudo yum install -y maven
 ```
   * Compile the code and assemble the servlet package
 ``` 
-    $ cd hello-world
-    $ mvn install
+    $ cd ~/hello-world
+    $ sudo mvn install
 ```
   * If successful, `hello.war` servlet package can be found under `target/` directory 
 
@@ -45,19 +45,19 @@ Maven was used to build the servlet. Please note that the task is optional as th
     
 1. Run "hello-world-deploy.sh"
 ```
-    $ cd hello-world
-    $ sh hello-world-deploy.sh
+    $ cd ~/hello-world
+    $ sudo sh hello-world-deploy.sh
 ```    
-After this step, there is no further interaction required. Your app is being deployed and will start automatically. Depending on your system's performance and the speed of your internet connection, it should take approximately one minute for the web app to become accessible via http://localhost/hello.
+After this step, there is no further interaction required. Your app is being deployed and will start automatically. Depending on your system's performance and the speed of your internet connection, it should take approximately one minute for the web app to become accessible via `http://[hostname]/hello`.
 
 
 ### Development
 
-For the purpose of development environment, simply the same instance of CentOS was utilized.
+For the purpose of the development environment, simply the same instance of CentOS was utilized.
 
 Source files described:
 
-  * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for providing a "hello world!" response
+  * `src/main/java/jstolc/HelloWorldServlet.java` - code responsible for a "hello world!" response
   * `src/main/webapp/WEB-INF/web.xml` - webapp configuration for Tomcat
   * `Dockerfile` - container build template
   * `hello-world-deploy.sh` - simple bash script to batch-install docker, build and run the container
